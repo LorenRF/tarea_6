@@ -1,0 +1,60 @@
+name: tarea_6
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: "^0.13.1"
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - Images/3th_age.png
+    - Images/adult.png
+    - Images/baby.jpg
+    - Images/caja_herramientas.png
+    - Images/itsaboy.png
+    - Images/itsagirl.png
+    - Images/kid.jpg
+    - Images/old.png
+    - Images/pre_teen.jpg
+    - Images/teen.png
+    - Images/oldadult.png
+    - Images/Loren.jpg
+    - Images/bog.png
+    - Images/sunset.jpg
+    - Images/day.jpg
+    - Images/night.jpg
+    - Images/logo.png
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: false
+  image_path: "Images/icon/icon.jpg"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "Images/icon/icon.jpg"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "path/to/image.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "Images/icon/icon.jpg"
+
+

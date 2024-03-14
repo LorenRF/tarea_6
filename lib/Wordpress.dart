@@ -78,7 +78,7 @@ class _WordPressNewsState extends State<WordPressNews> {
                               Text('Date: ${_articles[index].date}'),
                               Text('Link: ${_articles[index].link}'),
                               Image.asset(
-              'Images/logo.jpg',
+              'Images/logo.png',
               width: 300,
               height: 180,
             ), 
